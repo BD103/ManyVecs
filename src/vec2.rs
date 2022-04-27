@@ -47,20 +47,22 @@ where
         Vec2 { x, y }
     }
 
-    /// Returns the X value of the vector.
+    /// Returns a reference of X.
     pub fn x(&self) -> &T {
         &self.x
     }
 
+    /// Returns a mutable reference of X.
     pub fn x_mut(&mut self) -> &mut T {
         &mut self.x
     }
 
-    /// Returns the Y value of the vector.
+    /// Returns a reference of Y.
     pub fn y(&self) -> &T {
         &self.y
     }
 
+    /// Returns a mutable reference of Y.
     pub fn y_mut(&mut self) -> &mut T {
         &mut self.y
     }
