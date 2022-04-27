@@ -546,9 +546,9 @@ where
 
 impl<T> Default for Vec2<T>
 where
-    T: Num + Copy,
+    T: Num + Copy + Default,
 {
     fn default() -> Self {
-        Vec2::new(T::zero(), T::zero())
+        Vec2::new(T::default(), T::default())
     }
 }
