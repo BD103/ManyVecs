@@ -1,0 +1,14 @@
+run = "cargo run --example editing_vec"
+# run = "python -m http.server 8000 -d target/doc"
+language = "nix"
+hidden = [
+    ".cargo",
+    "Cargo.lock",
+    "target"
+]
+
+[nix]
+channel = "stable-21_11"
+
+[env]
+CARGO_HOME = "${HOME}/${REPL_SLUG}/.cargo"

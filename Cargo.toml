@@ -1,0 +1,17 @@
+[package]
+name = "manyvecs"
+version = "0.1.0"
+authors = ["BD103"]
+edition = "2021"
+description = "Vector structs inspired by GLSL"
+documentation = "https://docs.rs/manyvecs"
+readme = "README.md"
+homepage = "https://bd103.github.io"
+repository = "https://github.com/BD103/ManyVecs"
+license = "MIT"
+keywords = ["vector"]
+categories = ["data-structures", "game-development", "mathematics"]
+exclude = [".cargo", ".replit", "replit.nix"]
+
+[dependencies]
+num-traits = "0.2"
