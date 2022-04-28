@@ -5,7 +5,6 @@ A library providing Vector structs inspired by GLSL. These are useful for workin
 - In-depth unit testing
 - Support of component operators (addition, subtraction, etc.)
 - Useful methods, like magnitude and normalization
-- Follows
 
 **This is not related to the standard library [`Vec`](https://doc.rust-lang.org/std/vec/struct.Vec.html) type.**
 
