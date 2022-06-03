@@ -5,4 +5,4 @@ mod vec2;
 #[cfg(test)]
 mod tests;
 
-pub use crate::vec2::Vec2;
+pub use crate::vec2::*;
