@@ -30,6 +30,18 @@ Vec2::from((2.0, 3.0));
 
 These are just a few examples, you can find the complete documentation at [docs.rs](https://docs.rs/manyvecs).
 
+## Stability Notice
+
+This library is currently unstable. It is recommended that you only allow patches in your dependency on ManyVecs.
+
+```toml
+# Cargo.toml
+[dependencies]
+manyvecs = "~0.Y.Z"
+```
+
+See more about the tilde requirement [here](https://doc.rust-lang.org/stable/cargo/reference/specifying-dependencies.html#tilde-requirements).
+
 ## License
 
 ManyVecs is developed and distributed under the [MIT license](https://opensource.org/licenses/MIT).

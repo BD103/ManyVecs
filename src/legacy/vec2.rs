@@ -6,12 +6,6 @@ use std::ops::{
     Add, AddAssign, Div, DivAssign, Mul, MulAssign, Neg, Rem, RemAssign, Sub, SubAssign,
 };
 
-pub type Vec2f = Vec2<f32>;
-pub type Vec2d = Vec2<f64>;
-
-pub type Vec2u = Vec2<usize>;
-pub type Vec2i = Vec2<isize>;
-
 /////////////////
 // Main Struct //
 /////////////////

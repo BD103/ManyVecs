@@ -14,4 +14,13 @@ categories = ["data-structures", "game-development", "mathematics"]
 exclude = [".cargo", ".replit", "replit.nix"]
 
 [dependencies]
-num-traits = "0.2"
+num-traits = { version = "0.2", optional = true }
+
+[features]
+default = ["legacy"]
+
+# Generic-based
+legacy = ["num-traits"]
+
+# Macro-based
+macroed = []
