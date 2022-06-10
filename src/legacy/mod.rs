@@ -1,5 +1,8 @@
 mod vec2;
 
+#[cfg(test)]
+mod tests;
+
 pub use self::vec2::Vec2;
 
 #[cfg(not(feature = "macroed"))]

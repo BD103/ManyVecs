@@ -1,4 +1,4 @@
-use manyvecs::Vec2;
+use manyvecs::legacy::Vec2;
 
 /// Example of editing X and Y after the creation of
 /// a Vec2

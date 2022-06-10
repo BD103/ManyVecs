@@ -1,4 +1,4 @@
-use crate::Vec2;
+use crate::legacy::Vec2;
 
 /////////////////////
 // Core Functions //

@@ -21,7 +21,7 @@ use std::ops::{
 /// # Example
 ///
 /// ```
-/// # use manyvecs::Vec2;
+/// # use manyvecs::legacy::Vec2;
 /// let v = Vec2::new(5.0, 3.5);
 /// ```
 #[derive(Copy, Clone, Debug)]
