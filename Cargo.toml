@@ -13,6 +13,9 @@ keywords = ["vector"]
 categories = ["data-structures", "game-development", "mathematics"]
 exclude = [".cargo", ".replit", "replit.nix"]
 
+[package.metadata.docs.rs]
+features = ["legacy", "macroed"]
+
 [dependencies]
 num-traits = { version = "0.2", optional = true }
 
