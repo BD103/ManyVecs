@@ -15,7 +15,7 @@ macro_rules! create_vec2 {
 
         impl $name {
             /// Creates a new Vec2.
-            pub fn new(x: $type_, y: $type_) -> Self {
+            pub const fn new(x: $type_, y: $type_) -> Self {
                 $name {
                     x,
                     y,
